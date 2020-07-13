@@ -1,0 +1,115 @@
+body {
+ margin:0px;
+}
+.container {
+ position:relative;
+ width:560px;
+ margin:auto;
+border-top:3px solid green;
+border-left:3px solid green;
+border-right:3px solid green;
+border-bottom:1px solid green;
+
+}
+.title {
+ padding:30px;
+ border-bottom:2px solid green;
+ background:#FFFFFF;
+}
+.title h1 {
+ margin:0px;
+ font-family:'sans-serif',Times New Roman;
+ font-weight:normal;
+ text-shadow:0px 0px 1px rgba(0,0,0,0.4);
+}
+.quickadd {
+ padding:10px;
+ border-bottom:1px solid;
+}
+#QuickAdd {
+ border:2px green;
+padding:10px 30px;
+color:blue;
+font-size:200%;
+font-family:'Script MT Bold',Times New Roman;
+text-decoration:none;
+}
+
+.quickaddForm {
+ height:440px;
+ padding:10px;
+ background:rgb(240,240,240);
+ overflow:hidden;
+ display:none;
+}
+.quickaddForm label {
+ position:relative;
+ display:block;
+ width:300px;
+ height:10px;
+ float:left;
+ font-family:sans-serif;
+ font-size:15px;
+ padding:10px;
+ font-weight:bold;
+}
+.quickaddForm input,textarea {
+ border:1px green dashed;
+ width:50%;
+ padding:10px;
+ font-weight:bold;
+ border-radius:2px;
+ 
+}
+#Add,#Cancel {
+ border:2px green;
+padding:10px 30px;
+color:blue;
+font-size:150%;
+font-family:'Script MT Bold',Times New Roman;
+text-decoration:none;
+}
+.entry {
+ background:rgb(230,230,230);
+ width:560px;
+ height:40px;
+ border-bottom:3px solid green;
+}
+
+.entry .mail {
+ width:100px;
+ float:left;
+ padding:11px;
+}
+.entry .pswrd {
+ width:100px;
+ float:left;
+ padding:11px;
+}
+
+.entry .del {
+ width:30px;
+ float: left;
+ padding:9px;
+ margin-left:160px
+}
+.entry p {
+ margin:0px;
+ font-family:sans-serif;
+ font-size:15px;
+ text-shadow:0px 0px 1px rgba(0,0,0,0.4);
+}
+.entry .del a {
+ font-family:sans-serif;
+ color:#FFF;
+ font-size:20px;
+ padding:5px;
+ background:rgb(255,100,100);
+ border-radius:8px;
+ text-decoration:none;
+ margin-right:40px;
+}
+h3
+{
+color:blue;
+}

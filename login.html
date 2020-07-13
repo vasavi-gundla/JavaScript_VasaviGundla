@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EPAM LOGIN</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="operate.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#mail").keyup(function(){
+        // Getting the current value of textarea
+        var currentText = $(this).val();
+        
+        // Setting the Div content
+        $(".output2").text(currentText);
+    });
+});
+</script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#pswrd").keyup(function(){
+        // Getting the current value of textarea
+        var currentText = $(this).val();
+        
+        // Setting the Div content
+        $(".output3").text(currentText);
+    });
+});
+</script>
+
+</head>
+<body>
+	<div class="container">
+		<div class="title">
+						<img src="epam.png" height="60px" width="100px" style="float:right"><h1><center>EPAM Login</center></h1>
+
+		</div>
+		<div class="quickadd"><button id="QuickAdd">Login</button></div>
+		
+		<div class="quickaddForm">
+			
+			<label for="mail">Email Id</label><input type="text" id="mail" class="formFields">
+			<label for="pswrd">Password</label><input type="password" id="pswrd" class="formFields">
+			
+			<br>
+			
+			<br> <br><center>
+			<form action="success.html">
+			<button id="Add">Login Now</button>
+			</form>
+			
+		</div>
+<br>
+		<div class="addbook">
+			<!-- <div class="entry">
+				<div class="name"><p>xyz</p></div>
+				<div class="mail"><p>vasavi@gmail.com</p></div>
+				<div class="pswrd"><p>vasavi</p></div>
+				<div class="cpswrd"><p>vasavi</p></div>
+				<div class="del"><a href="#">Delete</a></div>
+			</div> -->
+			
+		</div>
+	</div>
+</body>
+</html>
